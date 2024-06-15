@@ -23,7 +23,7 @@ $ mkdir seq-ioc
 $ cd seq-ioc
 
 
-seq-ioc$ export EPICS_MBA_TEMPLATE_TOP=${PWD}/../epics-ioc-template/sncseq-example/
+seq-ioc$ export EPICS_MBA_TEMPLATE_TOP=${PWD}/../epics-ioc-template/sncseq-template/
 seq-ioc$ ls $EPICS_MBA_TEMPLATE_TOP
 seq-ioc$ makeBaseApp.pl -t ioc seq-ioc
 seq-ioc$ makeBaseApp.pl -i -t ioc -p seq-ioc example
