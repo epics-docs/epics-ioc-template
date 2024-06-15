@@ -21,8 +21,10 @@ $ mkdir -p alsu-ioc
 $ cd alsu-ioc
 
 alsu-ioc$ export EPICS_MBA_TEMPLATE_TOP=${PWD}/../epics-ioc-template/alsu-template
+alsu-ioc$ ls $EPICS_MBA_TEMPLATE_TOP
 alsu-ioc$ makeBaseApp.pl -t ioc alsu-ioc
 alsu-ioc$ makeBaseApp.pl -i -t ioc -p alsu-ioc example
-alsu-ioc$ echo "EPICS_BASE=/Users/JeongLee/epics/1.1.0/macOS-14.5/7.0.7/base" > configure/RELEASE.local
+alsu-ioc$ echo "EPICS_BASE=/home/jeonglee/epics/1.1.0/debian-12/7.0.7/base" > configure/RELEASE.local
 alsu-ioc$ make
+alsu-ioc$ ./bin/linux-x86_64/alsu-ioc 
 ```
