@@ -19,9 +19,10 @@ $ mkdir -p EPICSSoftIOC
 $ cd EPICSSoftIOC/
 
 EPICSSOftIOC$ export EPICS_MBA_TEMPLATE_TOP=${PWD}/../epics-ioc-template/base-template
+EPICSSoftIOC$ ls $EPICS_MBA_TEMPLATE_TOP
 EPICSSoftIOC$ makeBaseApp.pl -t ioc EPICSSoftIOC
 EPICSSoftIOC$ makeBaseApp.pl -i -t ioc -p EPICSSoftIOC example
-EPICSSoftIOC$ echo "EPICS_BASE=/Users/JeongLee/epics/1.1.0/macOS-14.5/7.0.7/base" > configure/RELEASE.local
+EPICSSoftIOC$ echo "EPICS_BASE=/home/jeonglee/epics/1.1.0/debian-12/7.0.7/base" > configure/RELEASE.local
 EPICSSoftIOC$ make
-EPICSSoftIOC$ ./bin/darwin-aarch64/EPICSSoftIOC
+EPICSSoftIOC$ ./bin/linux-x86_64/EPICSSoftIOC 
 ```
