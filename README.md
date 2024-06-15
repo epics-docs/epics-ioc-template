@@ -18,4 +18,5 @@ The main purpose of this repository is to provide basic and various examples of 
 
 ### Base Template : [EPICS Base Template](base-template/README.md)
 ### ALS-U Template : [ALS-U Controls IOC Template](alsu-template/README.md)
+### Sequencer `SNCSEQ` Template : [SNCSEQ IOC Template](sncseq-template/README.md)
 ### StreamDevice Template : [StreamDevice IOC Template](streamdevice-template/README.md)
