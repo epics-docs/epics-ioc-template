@@ -14,7 +14,7 @@
 Here we use `APPNAME` as `EPICSSoftIOC`, and `IOCNAME` as `example`.
 
 ```
-$ git clone git@github.com:epics-docs/epics-ioc-template.git
+$ git clone https://github.com/epics-docs/epics-ioc-template.git
 $ mkdir -p EPICSSoftIOC
 $ cd EPICSSoftIOC/
 
