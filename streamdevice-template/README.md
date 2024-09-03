@@ -15,7 +15,7 @@
 ## How To
 
 ```
-$ git clone git@github.com:epics-docs/epics-ioc-template.git
+$ git clone https://github.com/epics-docs/epics-ioc-template.git
 $ mkdir -p StreamDeviceIOC
 $ cd StreamDeviceIOC
 
